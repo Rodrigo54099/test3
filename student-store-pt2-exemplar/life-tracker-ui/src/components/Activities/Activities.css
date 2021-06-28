@@ -1,0 +1,24 @@
+.Activities {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.Activities .exercise img,
+.Activities .nutrition img,
+.Activities .sleep img,
+.Activities .planner img {
+    max-width: 300px;  
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+
+.Activities .exercise h2,
+.Activities .nutrition h2,
+.Activities .sleep h2,
+.Activities .planner h2 {
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+   margin-bottom: 0.5rem;  
+}
